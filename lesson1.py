@@ -47,3 +47,16 @@ print("The 3-digit code is:", ''.join(map(str, code_3_digits)))
 print("The 4-digit code is:", ''.join(map(str, code_4_digits)))
 
 
+#Ex7
+number1 = input("Enter the first number: ")
+number2 = input("Enter the second number: ")
+print(f"number one is {number1} and number two is {number2} ")
+swap = number1
+number1 = number2
+number2 = swap
+print(number1, number2)
+
+#Ex. 8
+length = float(input("Enter the length of the square: "))
+perimeter = 4 * length
+print(f"The perimeter is {perimeter}")
