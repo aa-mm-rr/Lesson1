@@ -1,3 +1,7 @@
+name = "Mariia"
+print(f"Hello {name}!")
+
+
 #Ex. 1
 question = "What's your name?"
 answer = input(question)
