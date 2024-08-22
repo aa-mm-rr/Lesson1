@@ -63,4 +63,5 @@ print(number1, number2)
 #Ex. 8
 length = float(input("Enter the length of the square: "))
 perimeter = 4 * length
-print(f"The perimeter is {perimeter}")
+area = length * length
+print(f"The perimeter is {perimeter}, the area is {area}")
