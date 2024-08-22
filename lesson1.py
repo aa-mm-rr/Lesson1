@@ -1,31 +1,9 @@
-'''
-intVariable = 4
-floatVariable = 3.14
-stringVariable = "Hello World"
-
-print(intVariable)
-print(floatVariable)
-print(stringVariable)
-
-print (type(intVariable))
-
-intVariable = int(floatVariable)
-print(intVariable)
-
-
-shareOfLoan = 500.50/3
-print(shareOfLoan)
-print(int(shareOfLoan))
-print(type(shareOfLoan))
-
-
-
-#Exs. 1
+#Ex. 1
 question = "What's your name?"
 answer = input(question)
 print("Hello, " + (answer))
 
-#Exs. 2
+#Ex. 2
 import math
 radius = float(input("Enter the radius: "))
 area = math.pi * radius ** 2
@@ -38,16 +16,16 @@ perimeter = 2 * (length + width)
 area = length * width
 print(f"The perimeter is {perimeter}, and the area is {area}")
 
-#Ex 4
+#Ex. 4
 number1 = float(input("Enter the first number: "))
 number2 = float(input("Enter the second number: "))
 number3 = float(input("Enter the third number: "))
 sum = number1 + number2 + number3
 product = number1 * number2 * number3
-average = sum / product
+average = sum/3
 print(f"The sum is {sum},the product is {product}, and the average is {average:.2f}")
 
-#Ex5
+#Ex. 5
 lotsToGramms = 13.3
 poundsToLots = 32
 talentsToPounds = 20
@@ -60,7 +38,7 @@ totalGrams = (talents * talentsToPounds * poundsToLots * lotsToGramms) + \
 kilograms = int(totalGrams // 1000)
 grams = totalGrams % 1000
 print(f"The mass is {kilograms} kilograms and {grams:.2f} grams.")
-'''
+
 #Ex6
 import random
 code_3_digits = [random.randint(0, 9) for _ in range(3)]
