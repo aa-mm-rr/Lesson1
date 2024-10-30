@@ -44,11 +44,6 @@ grams = totalGrams % 1000
 print(f"The mass is {kilograms} kilograms and {grams:.2f} grams.")
 
 #Ex6
-import random
-code_3_digits = [random.randint(0, 9) for _ in range(3)]
-code_4_digits = [random.randint(1, 6) for _ in range(4)]
-print("The 3-digit code is:", ''.join(map(str, code_3_digits)))
-print("The 4-digit code is:", ''.join(map(str, code_4_digits)))
 
 
 #Ex7
