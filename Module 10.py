@@ -1,4 +1,4 @@
-#Exercise 1,2
+#Exercise 1,2,3
 
 class Elevator:
     def __init__(self, bottom_floors, top_floors):
@@ -45,43 +45,3 @@ building2=Building(3, 12, 2)
 building2.run_elevator(1, 7)
 building1.fire_alarm()
 building2.fire_alarm()
-
-
-
-'''class Dog:
-    def __init__(self, name, birth_year, sound='Woof'):
-        self.name = name
-        self.birth_year = birth_year
-        self.sound = sound
-    def bark(self, times):
-        for i in range(times):
-            print(f'{self.name} barks: {self.sound}')
-        return
-
-
-class Hotel:
-    def __init__(self):
-        self.dogs = []
-    def dog_checkin(self, dog):
-        self.dogs.append(dog)
-        print(f'{dog.name} checked in')
-        return
-    def dog_checkout(self, dog):
-        self.dogs.remove(dog)
-        print(f'{dog.name} checked out')
-        return
-    def greeting(self):
-        for dog in self.dogs:
-            dog.bark(1)
-dog1 = Dog('Rex', 1999)
-dog2 = Dog('Jessi', 2020)
-dog3 = Dog('Alma',2024)
-
-hotel = Hotel()
-hotel.dog_checkin(dog1)
-hotel.dog_checkin(dog2)
-hotel.dog_checkin(dog3)
-hotel.greeting()
-hotel.dog_checkout(dog1)
-hotel.greeting()
-''
